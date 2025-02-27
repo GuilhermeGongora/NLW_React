@@ -11,7 +11,7 @@ interface InvitePageProps {
 }
 export default async function InvitePage(props: InvitePageProps) {
   const { subscriberId } = await props.params;
-  const inviteLink = `https://silver-goldfish-wr77xg59xj99hx64-3333.app.github.dev/invites/${subscriberId}`;
+  const inviteLink = `https://nlw-react-ten.vercel.app/invites/${subscriberId}`;
   return (
     <div className="min-h-dvh flex items-center justify-between gap-16 flex-col md:flex-row">
       <div className="flex flex-col gap-10 w-full max-w-[550px]">
