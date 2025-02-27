@@ -1,7 +1,7 @@
 import Image from "next/image";
-import medalCooper from "../../assets/medalCooper.svg";
-import medalGold from "../../assets/medalGold.svg";
-import medalSilver from "../../assets/medalSilver.svg";
+import medalCooper from "../../../assets/medalCooper.svg";
+import medalGold from "../../../assets/medalGold.svg";
+import medalSilver from "../../../assets/medalSilver.svg";
 export function Ranking() {
 	return (
 		<div className="w-full max-w-[440px] space-y-5">

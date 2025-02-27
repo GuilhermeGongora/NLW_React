@@ -7,7 +7,7 @@ interface InviteLinkinputProps {
 	inviteLink: string;
 }
 
-export function InviteLinkinput({ inviteLink }: InviteLinkinputProps) {
+export function InviteLinkInput({ inviteLink }: InviteLinkinputProps) {
 	function copyInviteLink() {
 		navigator.clipboard.writeText(inviteLink);
 	}
